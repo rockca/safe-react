@@ -2,8 +2,8 @@ import EtherLogo from 'src/config/assets/token_eth.svg'
 import { EnvironmentSettings, ETHEREUM_LAYER, ETHEREUM_NETWORK, NetworkConfig } from 'src/config/networks/network.d'
 
 const baseConfig: EnvironmentSettings = {
-  clientGatewayUrl: 'http://localhost:8001/v1',
-  txServiceUrl: 'http://localhost:8000/api/v1',
+  clientGatewayUrl: 'http://18.144.29.246:8111/v1',
+  txServiceUrl: 'http://18.144.29.246:8110/api/v1',
   safeUrl: 'http://localhost:3000/app',
   gasPriceOracles: [
     {
@@ -17,8 +17,8 @@ const baseConfig: EnvironmentSettings = {
       gweiFactor: '1e8',
     },
   ],
-  rpcServiceUrl: 'http://localhost:4447',
-  safeAppsRpcServiceUrl: 'http://localhost:4447',
+  rpcServiceUrl: 'http://18.144.29.246:8110',
+  safeAppsRpcServiceUrl: 'http://18.144.29.246:8110',
   networkExplorerName: 'Etherscan',
   networkExplorerUrl: 'https://rinkeby.etherscan.io',
   networkExplorerApiUrl: 'https://api-rinkeby.etherscan.io/api',
